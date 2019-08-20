@@ -1,0 +1,455 @@
+/*events styling*/
+.events{
+    clear: left;
+    margin: 3%;
+}
+table{
+    margin-top: 5%;
+}table td{
+    transition: background .5s;
+}
+table tr:nth-child(even){
+    color: red;
+}
+table td:hover{
+    background: rgb(0,0,0,.6);
+}
+table tr:nth-child(odd){
+    color: skyblue;
+}
+table td:nth-child(1){
+    border-right: 2px solid;
+}
+table td:nth-child(n){
+    padding:  20px 5vw;
+}
+table tr td{
+    padding: 10px 20px;
+    font-size: 1.2vw;
+    font-family: Segoe UI Emoji;
+}
+.events h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: comic sans ms;
+    
+}
+/*Fotter syling*/
+.footer{
+    clear: left;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background: purple;
+    height: 10vh;
+    font-family: georgia;
+    font-weight: 500;
+    font-size: 18px;
+}
+.kaka{
+    text-decoration: none;
+    color: white;
+}
+/*motto styling */
+
+.tools{
+    margin: 4%; 
+}
+
+.sell-it{
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+    font-family: comic sans ms;
+     margin-bottom: 30%;
+}
+.fom, h4, .pa{
+    padding: 10px;
+}
+.sell-it h4{
+    font-size: 20px;
+}
+.fom{
+    font-size: 10em;
+    color: red;
+}
+.navbar{
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    right: 75%;
+    background: rgb(0,0,0,.8);
+    border: none;
+    
+}
+.hidden{
+    display: none;
+}
+.searchbar{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transform: translateY(30px);
+}
+#sat{
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 15px;
+    transition: .5s;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    color: white;
+    left: 25%;
+    height: content-height;
+    right: 0;
+    background-image: url(lionel-messi-720x1280-hd-17892.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.strip-box{
+    height: 10vh;
+    line-height: 10vh;
+    width: 100%;
+    box-shadow: rgb(0,0,0,.5) 0 0 10px 10px;
+}
+.pak{
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: Comic Sans MS;
+    font-weight: 200;
+    margin-left: 3vw;
+    
+}
+.pak, .rak{
+    color: black;
+}
+.icon{
+    font-size: 2.3vw;
+}
+.mover{
+    margin-right: 8vw;
+}.rak{
+    font-size: 1.5vw;
+    margin-right: 1.5vw;
+}
+.hat{
+    background: none;
+    text-decoration: none;
+    color: black;
+    font-family: comic sans ms;
+    border: none;
+    box-shadow: rgb(0,0,0,.4) 1px 4px 1px 1px;
+    font-size: 1.4vw;
+    margin-right: 1.2vw;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background .5s;
+    border-radius: 4px;
+}
+.hat:hover{
+    background: rgb(0,0,0,.1);
+}
+.hat:hover .strip-box{
+    background: red;
+}
+.strip-box:hover #dala{
+    animation: aloha .5s linear;
+}
+header{
+    width: 100%;
+    margin: 2vw;
+}
+header .logo{
+    text-align: center;
+    width: 100%;
+    font-size: 13vw;
+}
+@keyframes aloha{
+    0%{
+        transform: translateX(0vw);
+    }
+    50%{
+        transform: translateX(.5vw);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+h2{
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+body{
+    box-sizing: border-box;
+}
+
+.tak{
+    display: block;
+    text-decoration: none;
+    color: fuchsia;
+    font-size: 1vw;
+    padding: 10px 20px;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 2px;
+    transition: .5s;
+    font-family: comic sans ms;
+    text-transform: uppercase;
+}
+.tak::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0,0,0,.02);
+    transform: scale(0);
+    z-index: 1;
+    transform-origin: center;
+    transition: .5s;
+}
+.tak:hover::before{
+    transform: scale(1);
+        }
+.tak:hover{
+    color: white;
+}
+.links{
+    position: relative;
+    top: 20%;
+    text-align: center;
+}
+.dev{
+    color: white;
+    position: absolute;
+    font-family: georgia;
+    bottom: 5%;
+    text-align: center;
+    width: 100%;
+}
+/*slideshow container styling*/
+.slide_show{
+    margin: 0 auto;
+    width: 90%;
+    height: 90vh;
+    border-radius: 8px;
+    border: 2px solid;
+}
+.cont{
+    margin: 2% auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.dot{
+    height: 1.5rem;
+    width: 1.5rem;
+    float: left;
+    margin-left: 20px;
+    background: aqua;
+    transition: background .5s;
+    border-radius: 50px;
+}
+.box{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    border-radius: inherit;
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+.slides{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: .5s;
+    animation: slice .2s ease-in-out;
+}
+@keyframes slice{
+    0%{
+        transform: tra(180deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+.next, .prev{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 15%;
+    cursor: pointer;
+    transition: background .5s;
+    
+}
+.prev:hover{
+    background: rgb(0,0,0,.6);
+    box-shadow: rgb(0,0,0,.5) 10px 0px 10px 0px;
+}
+.next:hover{
+    background: rgb(0,0,0,.6);
+    box-shadow: rgb(0,0,0,.5) -10px 0px 10px 0px;
+}
+.next{
+    right: 0;
+}
+.prev{
+    left: 0;
+}
+
+/*paragraph styling*/
+.history{
+    margin: 5%;
+}
+.history{
+    background: rgb(0,0,0,.7);
+    padding: 20px 20px;
+     border-radius: 10px;
+}
+.para{
+    font-family: georgia;
+    font-size: 1.2vw;
+   
+}
+hr{
+    padding: 3px;
+    border: none;
+    background: red;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+/*Scrolling style*/
+html{
+    scroll-behavior: smooth;
+}
+/*alumni section*/
+.alumni{
+    margin: 3%;
+    height: content-height;
+}
+.data-container{
+    width: 100%;
+    margin: 0 auto;
+}
+.boxit .data{
+    transition: .5s;
+}
+.boxit .data p{
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+}
+*{
+    outline: none;
+}
+.boxit .stuff{
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    font-size: 17px;
+    transform: translateY(30px);
+    background: rgb(0,0,0,.8);
+    padding: 10px 10px;
+    box-shadow: rgb(0,0,0,.3) 10px 10px 10px 10px;
+    font-family: Comic sans MS;
+    transition: .5s;
+    opacity: .3;
+}
+.boxit:hover .stuff{
+    transform: translateY(-50%);
+    opacity: 1;
+}
+.boxit:hover{
+    transform: translateY(-20px);
+    transform: rotate3d(180deg);
+}
+.boxit{
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+    float: left;
+    transition: .5s;
+    border-radius: 10px;
+}
+.boxit .pica{
+    width: 100%;
+    height: 100%;
+}
+.para1{
+    background: rgb(0,0,0,.7);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.contact{
+    margin: 3%;
+    clear: left;
+}
+.form-box{
+    padding: 20px;
+    background: rgb(0,0,0,.7);
+    transition: box-shadow .5s;
+    border-radius: 10px;
+}
+.form-box:hover{
+    box-shadow: rgb(0,0,0,.5) 10px 10px 10px 10px;
+}
+input{
+    padding: 8px;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-family: comic sans ms;
+}
+textarea, input{
+    border-radius: 4px;
+}
+textarea{
+     margin-bottom: 10px;
+     padding: 10px;
+     font-size: 15px;
+}
+.btn{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    opacity: .5;
+    transition: .5s;
+    background: orange;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 1;
+}
+.fdback{
+    background: linear-gradient(20deg, aqua, blue);
+    border-radius: 4px;
+    text-align: left;
+    line-height: 10vh;
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 40px;
+    padding: 0 0 0 10px;
+}
+/*events styling*/

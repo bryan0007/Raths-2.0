@@ -1,0 +1,51 @@
+.container .academics {
+    clear: left;
+    width: 100%;
+    height: content;
+}
+.academics .bast{
+    margin: 5% 3%;
+}
+
+.container .academics .first {
+    width: 320px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    float: left;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px 3px rgb(0,0,0,.2);
+    cursor: pointer;
+    font-family: comic sans ms;
+    margin: 10px;
+}
+.container .academics .first .head {
+    position: absolute;
+    width: 100%;
+    background: rgb(0, 0, 0, .4);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.container .academics .first .text {
+    position: absolute;
+    bottom: 30%;
+    font-size: 20px;
+    transform: translateX(-400px);
+    transition: .5s;
+}
+
+.container .academics .first:hover .text {
+    transform: translateX(0);
+}
+
+@keyframes jok {
+    0% {
+        margin-top: 20px;
+    }
+}
